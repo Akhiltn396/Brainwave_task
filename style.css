@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container {
+    width: 90vw;
+    height: 90vh;
+}
+
+.head {
+    background-color: #E88D67;
+}
+
+.todo {
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #F3F7EC;
+}
+
+#home {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+#inputData{
+    border: none;
+    padding: 8px 0px;
+}
+
+.inputData::placeholder{
+text-align: center;
+}
+.add-todo {
+    padding: 5px 10px;
+    background-color: #f8a886;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.todos {
+    background-color: #006989;
+    min-height: 550px;
+    width: 100%;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+}
+tbody tr{
+    cursor: pointer;
+}
+tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
