@@ -56,7 +56,7 @@ text-align: center;
 
 .todos {
     background-color: #006989;
-    min-height: 550px;
+    min-height: 100%;
     width: 100%;
 }
 
